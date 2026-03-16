@@ -20,10 +20,10 @@
 
 ```bash
 # 이 저장소를 클론합니다 (최초 1회)
-git clone <REPO_URL> ~/work/apps/salesmap-mcp
+git clone https://github.com/ejlee-0924/salesmap-mcp.git ~/work/apps/salesmap-mcp
 ```
 
-> **REPO_URL**은 관리자에게 문의하세요. Private repo이므로 GitHub 접근 권한이 필요합니다.
+> Private repo이므로 GitHub 접근 권한이 필요합니다. 관리자에게 초대를 요청하세요.
 
 ---
 
