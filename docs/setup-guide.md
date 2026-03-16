@@ -77,8 +77,7 @@ git clone https://github.com/ejlee-0924/salesmap-mcp.git ~/work/apps/salesmap-mc
 ```
 
 > 이 명령어는 GitHub에서 코드를 내 컴퓨터로 다운로드합니다.
-> Private 저장소이므로 GitHub 로그인 팝업이 뜰 수 있습니다. 본인 GitHub 계정으로 로그인하세요.
-> ⚠️ 접근 권한이 없다는 에러가 나면 관리자(은지)에게 GitHub 초대를 요청하세요.
+> 공개 저장소이므로 별도 권한 없이 바로 받을 수 있습니다.
 
 ---
 
@@ -213,7 +212,7 @@ claude
 | `command not found: node` | 0단계의 Node.js 설치를 다시 해주세요 |
 | `command not found: git` | 0단계의 Git 설치를 다시 해주세요 |
 | `command not found: claude` | `npm install -g @anthropic-ai/claude-code` 실행 |
-| `permission denied` 또는 `not found` (git clone 시) | 관리자에게 GitHub 초대 요청 |
+| `permission denied` (git clone 시) | 관리자에게 문의 |
 | `Cannot find module` (claude 실행 후) | 3단계 `npm run build`를 다시 실행하세요 |
 | 세일즈맵이 안 보여요 | `cd ~/work`에서 실행했는지 확인. 홈(~)에서는 안 됩니다 |
 | 설정 파일이 잘못된 것 같아요 | `cat ~/work/.claude/settings.json`으로 내용 확인 후 관리자에게 공유 |
